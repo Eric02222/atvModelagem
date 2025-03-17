@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #0a3827;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 1% 0 2.5% 0;
+    margin: 0 0 0 0;
+    background-image: linear-gradient(to bottom, #111111 50%, #ffffff00);
+    background-size: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1% 0 1% 0;
+}
+
+.nomeSite {
+    color: aliceblue;
+    font-size: 300%;
+    font-weight: bolder;
+}
+
+.nomeCategoria {
+    color: aliceblue;
+    display: flex;
+    margin: 0 0 1% 4%;
+}
+
+.cabeçario {
+    color: #fff;
+}
+
+.cabeçario a{
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+
+.cabeçario a :hover{
+    font-weight: bold;
+    color: #fff;
+}
+
+.botoesCab1 {
+    padding: 2vh 0 0 5vw;
+}
+
+.botoesCab1 a {
+    margin: 0 0 0 50px;
+}
+
+.botoesCab2 {
+    padding: 2vh 6vw 0 0;
+}
+
+.botoesCab2 a {
+    margin: 0 0 0 50px;
+}
+
+
+.containerImgInicio {
+    background: linear-gradient(to top, #0a3827 12%, #ffffff00 30%);
+    margin: 0 0 -5% 0;
+}
+
+.imgJogosCarrosel {
+    display: flex;
+    justify-content: space-between;
+    filter: drop-shadow();
+    position: relative;
+    margin: 0 auto;
+    top: -70px;
+    z-index: -1;
+}
+
+.imgJogosCorpo {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 1% 4% 1% 4%;
+}
+
+
+.carDJogo {
+    height: 37vh;
+    width: 22vw;
+    background-color: rgb(5, 29, 20);
+    border-radius: 4%;
+}
+
+.carDJogo p {
+    padding: 2% 0 0 3%;
+}
+
+.carDJogo button {
+    display: inline-block;
+    position: relative;
+}
+
+#bt-desejo {
+    background: #d85c5c;
+    color: #fff;
+    border-radius: 0 0 10px 0;
+    padding: 1.6% 8% 1.6% 9%;
+    top: 3.7%;
+    border-style: none;
+}
+
+#bt-compra {
+    top: 3.7%;
+    background: #be5e5e;
+    color: #fff;
+    border-radius: 0 0 0 10px;
+    padding: 1.6% 27.5% 1.6% 27.5%;
+    border-style: none;
+}
+
+#imgIn {
+    object-fit: cover;
+    width: 100%;
+}
+
+#imgCorpo {
+    height: 25vh;
+    width: 22vw;
+    min-height: 20vh;
+    min-width: 17vw;
+    border-radius: 4% 4% 0 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+  }
+  
+
+  .footer-content > div {
+    flex: 1;
+    margin: 0 20px; 
+    min-width: 200px; 
+  }
+  
+  
+  .footer-content h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  
+  
+  .footer-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li {
+    margin-bottom: 8px; 
+  }
+  
+  .footer-content a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-content a:hover {
+    color: #ff6600; 
+  }
+  
+ 
+  .footer-social a {
+    display: inline-block;
+    margin-right: 15px; 
+    font-size: 20px; 
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #ff6600; 
+  }
+
+  .footer-termos {
+    text-align: center; 
+    margin-top: 20px;
+  }
+  
+  .footer-termos p {
+    font-size: 14px;
+  }
+  
+  .footer-termos a {
+    color: #fff;
+  }
+  
+  .footer-termos a:hover {
+    color: #ff6600;
+  }
