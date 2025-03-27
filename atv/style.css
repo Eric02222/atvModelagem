@@ -139,6 +139,13 @@ body {
     border-style: none;
     color: rgb(255, 255, 255);
     background-color: rgb(252, 109, 144);
+    transition: 0.5s;
 }
 
-
+#btnLogin:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
+    transition: 0.5s;
+}
