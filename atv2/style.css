@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: brown;
+}
+
+#container {
+    display: flex;
+    height: 100%;
+    background-color: cadetblue;
+    flex-direction: column;
+}
+
+#topo {
+    height: 15%;
+    width: 100%;
+    background-color: rgb(160, 159, 95);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#centro {
+    height: 70%;
+    width: 100%;
+    background-color: rgb(160, 95, 95);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+#baixo {
+    height: 15%;
+    width: 100%;
+    background-color: rgb(95, 160, 95);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icons {
+    height: 30%;
+    
+}
+
+#icone_meio {
+    margin: 0 20px 0 20px;
+}
+
+#texto_topo {
+    justify-content: space-between;
+}
+
